@@ -1,6 +1,6 @@
-﻿char[] alphabet = "ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ".ToCharArray();    //Enter letters of the alphabet in this field
-char[] plainText = "AçıkMetin".ToUpper().ToCharArray();    //Enter plain text in this field
-int key = 3;    //enter the key in this field
+﻿char[] alphabet = "ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ".ToCharArray();    //Enter the letters of the alphabet into this field.
+char[] plainText = "AçıkMetin".ToUpper().ToCharArray();    //Enter the plain text into this field.
+int key = 3;    //Enter the key into this field.
 string cipherText = string.Empty;
 
 for (int i = 0; i < plainText.Length; i++)
